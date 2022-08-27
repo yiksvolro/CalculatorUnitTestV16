@@ -22,47 +22,5 @@ namespace CalcClassBr.Tests
             //Assert
             Assert.AreEqual(expected, result);
         }
-        //[TestMethod]
-        //public void MultiplicateNegative5AndPositive3ReturnsNegative15()
-        //{
-        //    //Arrange
-        //    long a = -5;
-        //    long b = 3;
-        //    long expected = -15;
-
-        //    //Act
-        //    var result = CalcClass.Mult(a,b);
-
-        //    //Assert
-        //    Assert.AreEqual(expected, result);
-        //}
-        //[TestMethod]
-        //public void MultiplicateNegative5AndNegative8Returns40()
-        //{
-        //    //Arrange
-        //    long a = -5;
-        //    long b = -8;
-        //    long expected = 40;
-
-        //    //Act
-        //    var result = CalcClass.Mult(a, b);
-
-        //    //Assert
-        //    Assert.AreEqual(expected, result);
-        //}
-        //[TestMethod]
-        //public void MultiplicateToZero()
-        //{
-        //    //Arrange
-        //    long a = 0;
-        //    long b = 1;
-        //    long expected = 0;
-
-        //    //Act
-        //    var result = CalcClass.Mult(a, b);
-
-        //    //Assert
-        //    Assert.AreEqual(expected, result);
-        //}
     }
 }
