@@ -18,9 +18,11 @@ namespace CalcClassBr.Tests
 
             //Act
             var result = CalcClass.Mult(a, b);
+            var reversed = CalcClass.Mult(b, a);
 
             //Assert
             Assert.AreEqual(expected, result);
+            Assert.AreEqual(expected, reversed);
         }
     }
 }
